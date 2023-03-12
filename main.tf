@@ -1,10 +1,10 @@
 resource "aws_instance" "terEC2" {
   ami           = var.ami_id
-  instance_type = "t2.micro"
-  subnet_id     = "subnet-0de8f480df716b666"
+  instance_type = var.instance_type
+  subnet_id     = var.subnet_id
 
   tags = {
-    Name      = "terraform-test"
+    Name      = var.machine_name
     Createdby = "Terraform"
   }
 }
