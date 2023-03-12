@@ -32,5 +32,4 @@ override.tf.json
 #
 /.vscode/
 *.lock.hcl
-amir-terraform_accessKeys.csv
 Key-pair.ppk
