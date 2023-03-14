@@ -1,4 +1,13 @@
 terraform {
+
+
+  backend "s3" {
+    bucket = "terraform-bucket-007"
+    key    = "build/airflow/terraform.tfstate"
+    region = "us-east-1"
+  }
+
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
