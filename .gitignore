@@ -33,3 +33,4 @@ override.tf.json
 /.vscode/
 *.lock.hcl
 Key-pair.ppk
+*.tfstate
