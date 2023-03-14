@@ -34,3 +34,4 @@ override.tf.json
 *.lock.hcl
 Key-pair.ppk
 *.tfstate
+.gitignore
